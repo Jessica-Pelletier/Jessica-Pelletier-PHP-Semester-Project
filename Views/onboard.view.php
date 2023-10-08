@@ -6,6 +6,10 @@
     <title>Onboard</title>
 </head>
 <body>
-    <p> this is the onboard page</p>
+    <?php require('partials/logoheader.php') ?>
+    <main>
+    <h1>Create an account</h1>
+    </main>
+    
 </body>
 </html>
