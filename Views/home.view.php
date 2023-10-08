@@ -6,8 +6,9 @@
     <title>Home page</title>
 </head>
 <body>
-    <?php require('partials/logoheader.php') ?>
+<?php require('partials/logoheader.php') ?>
     <main>
+        <h1></h1>
 
     </main>
     
