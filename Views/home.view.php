@@ -8,9 +8,16 @@
 <body>
 <?php require('partials/logoheader.php') ?>
     <main>
-        <h1></h1>
-
+        <h1>My Intineraries</h1>
+        <a href></a>
+        <a href></a>
     </main>
+    <aside>
+        <nav>
+            
+        </nav>
+
+    </aside>
     
 </body>
 </html>
