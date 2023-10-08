@@ -18,8 +18,9 @@
             <p>Password: <input type="text" name="password"></p>
             <p><input type="checkbox" name="terms" value="true">
                 I agree to the terms and conditions.</p>
-            <p><input type="submit" value="Create"></p>
+            <!-- <a href="onboard.php"><p><input type="submit" value="Create"></p></a> TODO:Make link to onboard -->
         </form>
+        <a href="home.php">Sign up</a> <!-- This is a sudo button for temp user flow ONLY, please delete once form button is properly linked-->
     </main>
 
 </body>
