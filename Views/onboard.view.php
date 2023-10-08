@@ -6,6 +6,6 @@
     <title>Onboard</title>
 </head>
 <body>
-    
+    <p> this is the onboard page</p>
 </body>
 </html>
