@@ -6,11 +6,9 @@
     <title>Index</title> 
 </head>
 <!-- This is the landing page, before log in or account creation. It is the first page that you go to so I called it index. Although im not sure if renaming it to "landing" would be more appropriate. -->
+<?php require('partials/logoheader.php') ?>
 <body>
-    <header>
-        <img src="images/temp-logo-png-transparent.png" width=50 alt="itinerary Logo"></img>
-        <a href="outofscope.php"><button type="button">Log in!</button></a>
-    </header>
+    
     <main> 
         <h1>Plan, Play Repeat</h1>
         <button a>Start Planning</button> 
