@@ -8,7 +8,14 @@ body {
     
 }
 
-/* ---Home Page---*/
-.mainhome {
-
+/* ---Index---*/
+.index {
+background-image: url("/Jessica-Pelletier-PHP-Semester-Project/images/CanoeView.jpg");
+background-color: #cccccc;
+background-size: auto;
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+padding-bottom: 100px;
+padding-top: 200px;
 }

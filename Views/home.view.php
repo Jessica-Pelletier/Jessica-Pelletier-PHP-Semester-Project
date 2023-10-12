@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php require('partials/logoheader.php') ?>
-    <main class=mainhome>
+    <main>
         <h1>My Intineraries</h1>
         <a href>View my itineraries</a> <!--TODO: php - add counter for amount of itineraries. -->
         <a href="newItin.php">Create new</a> 

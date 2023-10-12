@@ -9,9 +9,9 @@
 </head>
 <!-- This is the landing page, before log in or account creation. It is the first page that you go to so I called it index. Although im not sure if renaming it to "landing" would be more appropriate. -->
 <?php require('partials/logoheader.php') ?>
-<body>
+<body >
     
-    <main> 
+    <main class=index> 
         <h1>Plan, Play Repeat</h1>
         <a href="onboard.php"><button>Start Planning</button></a>
         <!-- Update with program details and highlights -->
