@@ -1,6 +1,14 @@
-p {
-    background-color:black;
+/*--Global Styles--*/
+body {
+    font-family: 'montserrat';
 }
-.logo {
-    background-color: black;
+/* ---Partials--- */
+.header {
+    background-color: #107E7D;
+    
+}
+
+/* ---Home Page---*/
+.mainhome {
+
 }
