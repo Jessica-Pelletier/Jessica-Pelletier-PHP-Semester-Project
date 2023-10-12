@@ -95,3 +95,18 @@ margin-top:0;
     width: auto;
     margin-left: 47%;
   }
+
+
+  /*---ONBOARD PAGE---*/
+  .onboardform {
+    width: 20%;
+   margin: auto;
+   margin-top: 10%;
+  }
+
+  .onboardform button{
+   font-family: 'montserrat';
+   padding:5px 10px;
+   border:1.5px solid #107e7d;
+   border-radius: 3px;
+  }

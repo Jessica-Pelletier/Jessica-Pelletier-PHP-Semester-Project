@@ -11,6 +11,7 @@
 <body>
     <?php require('partials/logoheader.php') ?>
     <main>
+        <div class=onboardform>
         <h1>Create an account</h1>
         <!--TODO: Add action to form -->
         <form action="" method="POST">
@@ -21,7 +22,8 @@
                 I agree to the terms and conditions.</p>
             <!-- <a href="onboard.php"><p><input type="submit" value="Create"></p></a> TODO:Make link to onboard -->
         </form>
-        <a href="home.php">Sign up</a> <!-- This is a sudo button for temp user flow ONLY, please delete once form button is properly linked-->
+        <button><a href="home.php">Sign up</a></button> <!-- This is a sudo button for temp user flow ONLY, please delete once form button is properly linked-->
+</div>
     </main>
 
 </body>
