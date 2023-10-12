@@ -15,14 +15,14 @@
 
 
 <div class=container>
-    <main class=item>
+    <main class=mainhome>
         <h1>My Intineraries</h1>
-        <a href>View my itineraries</a> <!--TODO: php - add counter for amount of itineraries. -->
+        <a href>View my itineraries</a> <br> <!--TODO: php - add counter for amount of itineraries. -->
         <a href="newItin.php">Create new</a> 
     </main>
 
     
-    <aside class=item2>
+    <aside class=asideitem2>
         <nav>
             <p>Hello, User</p> <!-- TODO: PHP -make dynamic -->
             <ul>
