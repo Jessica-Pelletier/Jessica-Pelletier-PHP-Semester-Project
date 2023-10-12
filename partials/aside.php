@@ -1,7 +1,7 @@
-<aside class=asideitem2>
+<aside>
         <nav>
             <p>Hello, User</p> <!-- TODO: PHP -make dynamic -->
-            <ul>
+            <ul class=asideul>
                 <li><a href="outofscope.php">Profile</a></li>
                 <li><a href="outofscope.php">Itineraries</a></li>
                 <li><a href="outofscope.php">Settings</a></li>
