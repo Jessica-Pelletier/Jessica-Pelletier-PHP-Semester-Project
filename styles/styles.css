@@ -1,8 +1,10 @@
 /*--Global Styles--*/
 body {
     font-family: 'montserrat';
+    background-color: #FFFAFA;
+    margin: 0;
+  
 }
-
 
 
 /* ---Partials--- */
@@ -10,6 +12,7 @@ body {
    display: flex;
    flex-direction: row;
    justify-content:space-between;
+   
 
 }
 .header button{
