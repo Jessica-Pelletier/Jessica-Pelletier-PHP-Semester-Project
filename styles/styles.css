@@ -4,8 +4,10 @@ body {
 }
 /* ---Partials--- */
 .header {
-    background-color: #107E7D;
-    
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+
 }
 
 /* ---Index---*/
