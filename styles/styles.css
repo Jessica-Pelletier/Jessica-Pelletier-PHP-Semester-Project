@@ -110,3 +110,14 @@ margin-top:0;
    border:1.5px solid #107e7d;
    border-radius: 3px;
   }
+
+
+  /* --- Home page --- */
+.container {display: flex;
+    justify-content:space-between;
+}
+.container aside{
+    width:300px;
+    height:600px;
+    border: 1px solid black;
+}

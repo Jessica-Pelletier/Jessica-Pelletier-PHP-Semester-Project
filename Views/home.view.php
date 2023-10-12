@@ -10,14 +10,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Home page</title>
 </head>
-<body>
+<body class=home>
 <?php require('partials/logoheader.php') ?>
-    <main>
+
+
+<div class=container>
+    <main class=item>
         <h1>My Intineraries</h1>
         <a href>View my itineraries</a> <!--TODO: php - add counter for amount of itineraries. -->
         <a href="newItin.php">Create new</a> 
     </main>
-    <aside>
+
+    
+    <aside class=item2>
         <nav>
             <p>Hello, User</p> <!-- TODO: PHP -make dynamic -->
             <ul>
@@ -30,6 +35,7 @@
         </nav>
 
     </aside>
-    
+
+</div>
 </body>
 </html>
