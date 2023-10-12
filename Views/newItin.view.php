@@ -16,6 +16,7 @@
             <p>How many days? <input type="text" name="duration"></p> <!--Can I change this to an int?-->
             <p><a href="home.php">Cancel</a></p>
             <p><input type="submit" value="Create"></p> <!--Make button link to newdetail.php-->
+            <button><a href="newdetail.php">Create</a></button>
         </form>
     </main>
 </body>
