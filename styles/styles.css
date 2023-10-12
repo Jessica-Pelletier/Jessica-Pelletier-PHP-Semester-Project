@@ -4,6 +4,7 @@ body {
 }
 
 
+
 /* ---Partials--- */
 .header {
    display: flex;
@@ -20,6 +21,9 @@ body {
        
 }
 
+
+
+
 /* ---Index---*/
 .index {
 
@@ -31,6 +35,8 @@ flex-direction:column;
 justify-content: space-between;
 padding-bottom: 100px;
 padding-top: 200px;
+width: 100%;
+height: 45vh;
 }
 .index h1{
     font-size:3.5em;
@@ -38,13 +44,14 @@ padding-top: 200px;
 }
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta{
+   
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #107e7d;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
+    color: white;
     cursor: pointer;
     display: inline-flex;
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -63,4 +70,5 @@ padding-top: 200px;
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+    margin-left: 45%;
   }
