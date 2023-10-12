@@ -40,8 +40,20 @@ height: 45vh;
 }
 .index h1{
     font-size:3.5em;
+    padding-top: 1%;
     padding-left:20%;
+    padding-bottom: -10px;
+    color:white;
+    text-shadow: 2px 4px 1px gray;
 }
+.indexh2{font-size: 1em;
+color:white;
+font-weight: 300;
+text-shadow: 2px 4px 1px gray;
+padding-left: 20%;
+padding-top:-10px;
+}
+
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta{
    
