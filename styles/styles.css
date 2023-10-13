@@ -1,231 +1,222 @@
 /*--Global Styles--*/
 body {
-    font-family: 'montserrat';
-    background-color: #FFFAFA;
-    margin: 0;
-  
+  font-family: "montserrat";
+  background-color: #fffafa;
+  margin: 0;
 }
-
 
 /* ---Partials--- */
 .header {
-   display: flex;
-   flex-direction: row;
-   justify-content:space-between;
-   background-color: white;
-   border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
 }
-.header button{
-   font-family: 'montserrat';
-   margin: 50px 10px 0px 0px;
-   padding:5px 10px;
-   border:1.5px solid #107e7d;
-   border-radius: 3px;
-       
+.header button {
+  font-family: "montserrat";
+  margin: 50px 10px 0px 0px;
+  padding: 5px 10px;
+  border: 1.5px solid #107e7d;
+  border-radius: 3px;
 }
-.header img{
-    padding-left: 1%;
+.header img {
+  padding-left: 1%;
 }
-
 
 /*aside*/
 .asideul {
-    list-style-type: none;
+  list-style-type: none;
 }
-.asideul{display:flex;
-    flex-direction:column;
-    padding: 0;
-    font-size: 18px;
-  
-
+.asideul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 18px;
 }
 .asideul li {
-    border-bottom: 1px solid gray;
-    padding:10px 0px 10px 5px;
-    }
-.asideul a{
-    color:black;
-    text-decoration: none;
+  border-bottom: 1px solid gray;
+  padding: 10px 0px 10px 5px;
+}
+.asideul a {
+  color: black;
+  text-decoration: none;
 }
 .logout {
-    
 }
 
 /* ---Index---*/
 .index {
+  background: rgb(38, 107, 121);
+  background: linear-gradient(
+      0deg,
+      rgba(38, 107, 121, 0.46682422969187676) 0%,
+      rgba(38, 107, 121, 0.4556197478991597) 0%,
+      rgba(255, 255, 255, 0.2903536414565826) 100%
+    ),
+    url("/Jessica-Pelletier-PHP-Semester-Project/images/CanoeView.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 
-background: rgb(38,107,121);
-background: linear-gradient(0deg, rgba(38,107,121,0.46682422969187676) 0%, rgba(38,107,121,0.4556197478991597) 0%, rgba(255,255,255,0.2903536414565826) 100%), url("/Jessica-Pelletier-PHP-Semester-Project/images/CanoeView.jpg");
-background-size: cover;
-display: flex;
-flex-direction:column;
-
-padding-bottom: 100px;
-padding-top: 200px;
-width: 100%;
-height: 45vh;
+  padding-bottom: 100px;
+  padding-top: 200px;
+  width: 100%;
+  height: 45vh;
 }
-.index h1{
-    font-size:3.5em;
-    padding-top: 1%;
-    padding-left:20%;
-    margin-bottom: 0;
-    color:white;
-    text-shadow: 2px 4px 1px gray;
+.index h1 {
+  font-size: 3.5em;
+  padding-top: 3%;
+  padding-left: 20%;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 2px 4px 1px gray;
 }
-.indexh2{font-size: 18px;
-color:white;
-font-weight: 400;
-text-shadow: 1px 1px 1px gray;
-padding-left: 20%;
-margin-top:0;
-
+.indexh2 {
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px gray;
+  padding-left: 20%;
+  margin-top: 0;
 }
 
-.index p{
-    align-self: flex-end;
 
-}
 /* Code taken from https://getcssscan.com/css-buttons-examples */
-.indexcta{
-   
-    align-items: center;
-    background-color: #107e7d;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: white;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-    position: relative;
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-    margin-left: 47%;
-  }
-
-
-  /*---ONBOARD PAGE---*/
-  .onboardform {
-    width: 30%;
-   margin: auto;
-   margin-top: 10%; 
-   font-size:22px;
-  }
-
-  .onboardform p{
-    font-size: 20px;
-  }
-  
-
-  .onboardform button{
-   font-family: 'montserrat';
-   padding:5px 10px;
-   border:1.5px solid #107e7d;
-   border-radius: 3px;
-  }
-
-
-  /* --- Home page --- */
-.container {display: flex;
-    justify-content:space-between;
+.indexcta {
+  align-items: center;
+  background-color: #107e7d;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left: 47%;
 }
 
+/*---ONBOARD PAGE---*/
+.onboardform {
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  font-size: 22px;
+}
 
-.container aside{
-    width:300px;
-    height:600px;
-    border: 1px solid lightgray;
-    background-color:white;
-    border-radius:0px 0px 5px 5px;
+.onboardform p {
+  font-size: 20px;
+}
+
+.onboardform button {
+  font-family: "montserrat";
+  padding: 5px 10px;
+  border: 1.5px solid #107e7d;
+  border-radius: 3px;
+}
+
+/* --- Home page --- */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container aside {
+  width: 300px;
+  height: 600px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .mainhome {
-    padding-left: 8%;
-    
+  padding-left: 8%;
 }
 
-.mainhome h1{
-    margin-top: 25%;
-    font-size:2.5em;
+.mainhome h1 {
+  margin-top: 25%;
+  font-size: 2.5em;
 }
 
 /* Button Hover Decor taken and modified from https://codepen.io/konradwax/pen/woPNqJ */
 .mainhome a {
-   color:black; 
-   text-decoration: none;
+  color: black;
+  text-decoration: none;
 
-    border: none;
-    text-align: left;
-    font-size: 18px;
-    padding: 5px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 10px;
-  
-    
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .mainhome a:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;  
-    top: 6px;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .mainhome a:hover{
-    padding-right: 10px;
-    padding-left:8px;
-  }
-  
-  .mainhome a:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.mainhome a:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 6px;
+  right: -20px;
+  transition: 0.5s;
+}
 
-  /* ---New Itinerary---*/
-  .newitin div{
-    width: 30%;
-   margin: auto;
-   margin-top: 10%;
-   font-size:22px;
-  }
-  .newitin p{
-    font-size:20px;
-  }
-  .newitin button{
-    padding:5px;
-    padding:5px 10px;
-    border:2px solid #107e7d;
-    border-radius: 3px;
-    font-size:16px;
-    font-family: 'montserrat';
-    
-  }
-  .newitin .cancel{
-    margin-right: 45%;
-    }
-.newitin a{text-decoration:none;
-color:black;}
+.mainhome a:hover {
+  padding-right: 10px;
+  padding-left: 8px;
+}
+
+.mainhome a:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* ---New Itinerary---*/
+.newitin div {
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  font-size: 22px;
+  border:1px solid black;
+}
+.newitin p {
+  font-size: 20px;
+}
+.newitin button {
+  padding: 5px;
+  padding: 5px 10px;
+  border: 2px solid #107e7d;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "montserrat";
+}
+.newitin .cancel {
+  margin-right: 45%;
+}
+.newitin a {
+  text-decoration: none;
+  color: black;
+}
