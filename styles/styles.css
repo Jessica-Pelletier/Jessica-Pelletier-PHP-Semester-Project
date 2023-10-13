@@ -54,33 +54,47 @@ body {
       rgba(38, 107, 121, 0.4556197478991597) 0%,
       rgba(255, 255, 255, 0.2903536414565826) 100%
     ),
-    url("/Jessica-Pelletier-PHP-Semester-Project/images/CanoeView.jpg");
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
+    url("/images/CanoeView.jpg");
 
+  background-size: cover;
   padding-bottom: 100px;
   padding-top: 200px;
   width: 100%;
   height: 45vh;
+
+  display: flex; /* Use flexbox to center content */
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text horizontally */
+  
+ 
 }
 .index h1 {
-  font-size: 3.5em;
-  padding-top: 3%;
-  padding-left: 20%;
+  font-size: 4.5em;
+  padding-top: 2%;
   margin-bottom: 0;
   color: white;
   text-shadow: 2px 4px 1px gray;
+  
+  
 }
 .indexh2 {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-weight: 400;
   text-shadow: 1px 1px 1px gray;
-  padding-left: 20%;
   margin-top: 0;
+  
 }
 
+.index p{
+  
+    font-size: 20px;
+    position: relative;
+    top: 20px; /* Move the <p> down by 20px */
+  
+}
 
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta {
@@ -110,7 +124,7 @@ body {
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
-  margin-left: 47%;
+  
 }
 
 /*---ONBOARD PAGE---*/
@@ -200,7 +214,7 @@ body {
   margin: auto;
   margin-top: 10%;
   font-size: 22px;
-  border:1px solid black;
+  border: 1px solid black;
 }
 .newitin p {
   font-size: 20px;
@@ -219,4 +233,9 @@ body {
 .newitin a {
   text-decoration: none;
   color: black;
+}
+
+/*---Itinerary detail page---*/
+.newdetail h1 {
+  color: red;
 }

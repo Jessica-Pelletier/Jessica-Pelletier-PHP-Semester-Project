@@ -13,6 +13,7 @@
     <main class=newitin>
         <div>
         <h1>New Itinerary</h1>
+        
         <form action="" method="POST">
             <p>Where are you going? <input type="text" name="destination"></p>
             <p>How many days? <input type="text" name="duration"></p> <!--Can I change this to an int?-->
