@@ -71,7 +71,7 @@ body {
  
 }
 .index h1 {
-  font-size: 4.5em;
+  font-size: 5em;
   padding-top: 2%;
   margin-bottom: 0;
   color: white;
@@ -80,7 +80,7 @@ body {
   
 }
 .indexh2 {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-weight: 400;
   text-shadow: 1px 1px 1px gray;
@@ -88,13 +88,7 @@ body {
   
 }
 
-.index p{
-  
-    font-size: 20px;
-    position: relative;
-    top: 20px; /* Move the <p> down by 20px */
-  
-}
+
 
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta {
@@ -124,6 +118,12 @@ body {
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+  .indexcta:hover {
+    background-color: #1fa2a0; /* Change the background color on hover */
+    color: #fff;
   
 }
 
@@ -210,14 +210,23 @@ body {
 
 /* ---New Itinerary---*/
 .newitin div {
-  width: 30%;
+  width: 40%;
   margin: auto;
   margin-top: 10%;
   font-size: 22px;
-  border: 1px solid black;
+  border-radius: 10;
+  text-align:center;
+  background-color:white;
+  box-shadow: gray;
 }
 .newitin p {
   font-size: 20px;
+}
+
+.newitin .form {
+  width: 100%;
+  padding-bottom: 30px;
+
 }
 .newitin button {
   padding: 5px;
