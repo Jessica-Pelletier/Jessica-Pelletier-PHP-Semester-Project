@@ -209,7 +209,7 @@ body {
 }
 
 /* ---New Itinerary---*/
-.newitin div {
+.newitindiv {
   width: 40%;
   margin: auto;
   margin-top: 10%;
@@ -217,7 +217,8 @@ body {
   border-radius: 10;
   text-align:center;
   background-color:white;
-  box-shadow: gray;
+  box-shadow: 8px 8px 10px lightgray;
+ 
 }
 .newitin p {
   font-size: 20px;

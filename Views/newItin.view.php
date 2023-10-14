@@ -11,7 +11,7 @@
 <body>
     <?php require('partials/logoheader.php') ?>
     <main class=newitin>
-        <div>
+        <div class=newitindiv>
         <h1>New Itinerary</h1>
         
         <form action="" method="POST">
