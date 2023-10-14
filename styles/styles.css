@@ -239,15 +239,36 @@ body {
   font-size: 16px;
   font-family: "montserrat";
 }
-.newitin .cancel {
-  margin-right: 45%;
-}
 .newitin a {
   text-decoration: none;
   color: black;
+  
 }
 
+.create a {
+color:white;
+}
+.newitin .create{
+  background-color: #107e7d;
+}
+
+
+
+.newitin .cancel {
+  margin-right: 45%;
+  
+}
+
+
 /*---Itinerary detail page---*/
-.newdetail h1 {
-  color: red;
+.newdetail div {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+}
+.itinlines {
+  border-bottom: .5px solid gray;
 }
