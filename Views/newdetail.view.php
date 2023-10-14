@@ -16,7 +16,11 @@
             <div class=itinitems>
                 <h2>Day one</h2>
                 <p>
-
+                <ul>
+                       <li>Hiking in the jungle</li>
+                       <li>Wine in the city</li>
+                       <li>Cheese tasting in the village</li>
+                    </ul>
                 </p>
                 <h2>Day two</h2>
                 <p></p>
