@@ -261,14 +261,25 @@ color:white;
 
 
 /*---Itinerary detail page---*/
-.newdetail div {
+.itincard  {
   text-align: center;
   width: 50%;
   margin: auto;
   background-color:white;
   border-radius: 10px;
   box-shadow: 8px 8px 10px lightgray;
+  margin-top:5%;
+  padding-top:20px;
+  padding-bottom:20px;
 }
-.itinlines {
-  border-bottom: .5px solid gray;
+
+.newdetail h2 {
+  text-align: left;
+  border-bottom: .5px solid lightgray;
+}
+
+.itinitems {
+  width:80%;
+  margin:auto;
+
 }

@@ -9,17 +9,19 @@
 <?php require('partials/logoheader.php') ?>
 <body>
     <main class=newdetail>
-        <div>
+        <div class=itincard>
         <h1>NAME OF LOCATION</h1> <!-- TODO: Php make responsive to location selected by user-->
-        <p>Intinerary Block</p> <!--Make responsive-->
+        <div class=itinitems>
         <h2>Day one</h2>
         <p></p>
         <h2>Day two</h2>
         <p></p>
         <h2>Day three</h2>
         <p></p>
+</div>
         <button><a href="newItin.php">Back</a></button>
         <button><a href="home.php">Save</a></button>
+        
 </div>
 
 
