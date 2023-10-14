@@ -23,9 +23,20 @@
                     </ul>
                 </p>
                 <h2>Day two</h2>
-                <p></p>
+                <p>
+                <ul>
+                       <li>Breakfast at Ihop</li>
+                       <li>Beach walk downtown</li>
+                       <li>Suntanning and burgers at the beach</li>
+                    </ul>
+                </p>
                 <h2>Day three</h2>
-                <p></p>
+                <p>
+                <ul>
+                       <li>Full day cruise to island</li>
+                       
+                    </ul>
+                </p>
                 <div class=detailbuttonsflex>
                     <button class=back><a href="newItin.php">Back</a></button>
                     <button class=save><a href="home.php">Save</a></button>
