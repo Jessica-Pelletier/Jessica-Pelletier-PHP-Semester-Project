@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,31 @@
     <title>New Detail</title>
 </head>
 <?php require('partials/logoheader.php') ?>
+
 <body>
     <main class=newdetail>
         <div class=itincard>
-        <h1>NAME OF LOCATION</h1> <!-- TODO: Php make responsive to location selected by user-->
-        <div class=itinitems>
-        <h2>Day one</h2>
-        <p></p>
-        <h2>Day two</h2>
-        <p></p>
-        <h2>Day three</h2>
-        <p></p>
-</div>
-        <button><a href="newItin.php">Back</a></button>
-        <button><a href="home.php">Save</a></button>
-        
-</div>
+            <h1>NAME OF LOCATION</h1> <!-- TODO: Php make responsive to location selected by user-->
+            <div class=itinitems>
+                <h2>Day one</h2>
+                <p>
+
+                </p>
+                <h2>Day two</h2>
+                <p></p>
+                <h2>Day three</h2>
+                <p></p>
+                <div class=detailbuttonsflex>
+                    <button class=back><a href="newItin.php">Back</a></button>
+                    <button class=save><a href="home.php">Save</a></button>
+                </div>
+            </div>
+
+        </div>
 
 
 
     </main>
 </body>
+
 </html>
