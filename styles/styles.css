@@ -283,3 +283,13 @@ color:white;
   margin:auto;
 
 }
+
+.newdetail button{
+  padding: 5px;
+  padding: 5px 10px;
+  border: 2px solid #107e7d;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "montserrat";
+  background-color:white;
+}
