@@ -212,12 +212,14 @@ body {
 .newitindiv {
   width: 40%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 12%;
+  padding-top: 25px;
   font-size: 22px;
   border-radius: 10;
   text-align:center;
   background-color:white;
   box-shadow: 8px 8px 10px lightgray;
+  height: 300px
  
 }
 .newitin p {
