@@ -35,15 +35,15 @@ body {
   font-size: 18px;
 }
 .asideul li {
-  border-bottom: 1px solid gray;
-  padding: 10px 0px 10px 5px;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px 20px 5px;
+  box-shadow: 1px 1px 5px lightgray;
 }
 .asideul a {
   color: black;
   text-decoration: none;
 }
-.logout {
-}
+
 
 /* ---Index---*/
 .index {
