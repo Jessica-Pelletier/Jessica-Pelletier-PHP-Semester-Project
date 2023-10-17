@@ -9,9 +9,9 @@ if ($currentURL == '/index.php'){
 
 
 <link rel="stylesheet" href="styles/styles.css">
-<!-- TODO: make header responsive to remove login button if not on index page!-->
+
 <header class=header>
-<img src="images/WanderWiseLogo.png" width=125 alt="itinerary Logo"></img>
+<a href='home.php'><img src="images/WanderWiseLogo.png" width=125 alt="itinerary Logo"></img></a>
 
 <?php
 if ($showLoginButton){
