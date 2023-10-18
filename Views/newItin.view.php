@@ -14,8 +14,9 @@
         <div class=newitindiv>
         <h1>New Itinerary</h1>
         
+        <div class=form>
         <form action="" method="POST">
-            <div class=form>
+            
             <p>Where are you going? <input type="text" name="destination"></p>
             <p>How many days? <input type="text" name="duration"></p> 
             </div><!--Can I change this to an int?-->
