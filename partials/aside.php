@@ -1,6 +1,6 @@
 <aside>
         <nav>
-            <p class="greeting">Hello, <?= $_SESSION['name'] ?>  </p> 
+            <p class=greeting>Hello, <?= $_SESSION['name'] ?>  </p> 
             <ul class=asideul>
                 <li><a href="outofscope.php">Profile</a></li>
                 <li><a href="outofscope.php">Itineraries</a></li>
