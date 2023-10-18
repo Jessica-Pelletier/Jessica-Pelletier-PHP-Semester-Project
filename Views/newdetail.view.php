@@ -12,7 +12,7 @@
 <body>
     <main class=newdetail>
         <div class=itincard>
-            <h1>NAME OF LOCATION</h1> <!-- TODO: Php make responsive to location selected by user-->
+            <h1>Spain</h1> <!-- TODO: Php make responsive to location selected by user-->
             <div class=itinitems>
                 <h2>Day one</h2>
                 <p>
