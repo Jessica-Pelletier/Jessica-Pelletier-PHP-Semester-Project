@@ -1,4 +1,9 @@
 /*--Global Styles--*/
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "montserrat";
   background-color: #fffafa;
@@ -61,8 +66,20 @@ body {
   font-weight: 700;
 }
 
-/* ---Index---*/
-.index {
+
+footer {
+  background-color:#107e7d;
+}
+
+footer p {
+  margin-bottom: 0px
+}
+
+
+
+
+/* ---Index-------------------*/
+.indexpage {
   background: rgb(38, 107, 121);
   background: linear-gradient(
       0deg,
@@ -76,7 +93,7 @@ body {
   padding-bottom: 100px;
   padding-top: 150px;
   width: 100%;
-  height: 45vh;
+  height: 75vh;
 
   display: flex; /* Use flexbox to center content */
   flex-direction: column;
@@ -86,7 +103,7 @@ body {
   
  
 }
-.index h1 {
+.indexpage h1 {
   font-size: 5em;
   padding-top: 2%;
   margin-bottom: 0;
@@ -105,7 +122,9 @@ body {
 }
 
 
-.index p {margin-top: 300px}
+.indexpage p {margin-top: 300px}
+
+
 
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta {
@@ -151,7 +170,11 @@ body {
   margin-top: 10%;
   font-size: 22px;
 }
-
+.onboardform input,
+.onboarding label{
+  display:block;
+  width: 100%;
+}
 .onboardform p {
   font-size: 20px;
 }
