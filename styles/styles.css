@@ -1,5 +1,5 @@
 /*--Global Styles--*/
- *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -25,8 +25,7 @@ body {
   border: 1.5px solid #107e7d;
   border-radius: 3px;*/
 
- 
-  color:white;
+  color: white;
   font-family: "montserrat";
   margin: 50px 10px 0px 0px;
   padding: 9px 14px;
@@ -66,17 +65,21 @@ body {
   font-weight: 700;
 }
 
-
 footer {
-  background-color:#107e7d;
+  background-color: #107e7d;
+  text-align: center;
+  height: 70px;
+  padding-top:1em;
+  color:white;
 }
 
 footer p {
-  margin-bottom: 0px
+  margin: 0;
 }
-
-
-
+footer a{
+  color:white;
+  text-decoration:none;
+}
 
 /* ---Index-------------------*/
 .indexpage {
@@ -100,8 +103,6 @@ footer p {
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center text horizontally */
-  
- 
 }
 .indexpage h1 {
   font-size: 5em;
@@ -109,8 +110,6 @@ footer p {
   margin-bottom: 0;
   color: white;
   text-shadow: 2px 4px 1px gray;
-  
-  
 }
 .indexh2 {
   font-size: 22px;
@@ -118,13 +117,11 @@ footer p {
   font-weight: 400;
   text-shadow: 1px 1px 1px gray;
   margin-top: 0;
-  
 }
 
-
-.indexpage p {margin-top: 300px}
-
-
+.indexpage p {
+  margin-top: 300px;
+}
 
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta {
@@ -155,12 +152,10 @@ footer p {
   vertical-align: baseline;
   width: auto;
   transition: background-color 0.3s ease, color 0.3s ease;
-
-  }
-  .indexcta:hover {
-    background-color: #1fa2a0; /* Change the background color on hover */
-    color: #fff;
-  
+}
+.indexcta:hover {
+  background-color: #1fa2a0; /* Change the background color on hover */
+  color: #fff;
 }
 
 /*---ONBOARD PAGE---*/
@@ -171,8 +166,8 @@ footer p {
   font-size: 22px;
 }
 .onboardform input,
-.onboarding label{
-  display:block;
+.onboarding label {
+  display: block;
   width: 100%;
 }
 .onboardform p {
@@ -191,7 +186,7 @@ footer p {
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
 }
 .onboardform a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
@@ -265,11 +260,10 @@ footer p {
   padding-top: 25px;
   font-size: 22px;
   border-radius: 10;
-  text-align:center;
-  background-color:white;
+  text-align: center;
+  background-color: white;
   box-shadow: 8px 8px 10px lightgray;
-  height: 300px
- 
+  height: 300px;
 }
 .newitin p {
   font-size: 20px;
@@ -278,8 +272,6 @@ footer p {
 .newitin .form {
   width: 100%;
   padding-bottom: 30px;
- 
-
 }
 .newitin button {
   padding: 5px;
@@ -292,89 +284,80 @@ footer p {
 .newitin a {
   text-decoration: none;
   color: black;
-  
 }
 
 .create a {
-color:white;
+  color: white;
 }
-.newitin .create{
+.newitin .create {
   background-color: #107e7d;
 }
 
-
-
 .newitin .cancel {
   margin-right: 45%;
-  
 }
 
 .newitindiv {
-  border-radius:4px;
+  border-radius: 4px;
 }
 
 /*---Itinerary detail page---*/
-.itincard  {
+.itincard {
   text-align: center;
   width: 50%;
   margin: auto;
-  background-color:white;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 8px 8px 10px lightgray;
-  margin-top:5%;
-  padding-top:20px;
-  padding-bottom:20px;
+  margin-top: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .newdetail h2 {
   text-align: left;
-  border-bottom: .5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
 }
 
 .itinitems {
-  width:80%;
-  margin:auto;
-
+  width: 80%;
+  margin: auto;
 }
 
-.newdetail button{
+.newdetail button {
   padding: 5px;
   padding: 5px 10px;
   border: 2px solid #107e7d;
   border-radius: 3px;
   font-size: 16px;
   font-family: "montserrat";
-  background-color:white;
-  
+  background-color: white;
 }
 .detailbuttonsflex {
-  display:flex;
-  justify-content:space-between;
-  background-color:white;
-  text-decoration:none;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  text-decoration: none;
   color: black;
-  padding-top:50px;
+  padding-top: 50px;
 }
 
-.newdetail a{   
-  background-color:white;
-  text-decoration:none;
+.newdetail a {
+  background-color: white;
+  text-decoration: none;
   color: black;
-
 }
-.newdetail .save a{
+.newdetail .save a {
   background-color: #107e7d;
-  color:white;
+  color: white;
 }
 
-.newdetail .save{
+.newdetail .save {
   background-color: #107e7d;
-  color:white;
-
+  color: white;
 }
 
 .newdetail ul {
-  list-style-type:none;
-  text-align:left;
+  list-style-type: none;
+  text-align: left;
 }
-
