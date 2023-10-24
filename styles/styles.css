@@ -8,6 +8,9 @@ body {
   font-family: "montserrat";
   background-color: #fffafa;
   margin: 0;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -72,6 +75,7 @@ footer {
   height: 70px;
   padding-top: 1em;
   color: white;
+  margin-top: auto;
 }
 
 footer p {
@@ -222,7 +226,7 @@ input[type=checkbox] {
 
 .container aside {
   width: 300px;
-  height: 600px;
+  height: 100%;
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 0px 0px 5px 5px;
