@@ -8,9 +8,9 @@
     <title>Onboard</title>
 </head>
 
-<body>
+<body >
     <?php require('partials/logoheader.php') ?>
-    <main>
+    <main class=onboardpage>
         <div class=onboardform>
         <h1>Create an account</h1>
         <!--TODO: Add action to form -->
@@ -21,9 +21,12 @@
             <input type="text" name="email">
             <label for="password">Password</label>
             <input type="text" name="password">
-            <input type="checkbox" name="terms" value="true">
-            <label for="terms">I agree to the terms and conditions.</label>
+            <label for="password">Re-enter Password</label>
+            <input type="text" name="password">
             
+            <input type="checkbox" name="terms" value="true">
+            <label for="terms">I agree to the <a href="outofscope.php">terms and conditions.</a></label>
+
                 
             <!-- <a href="onboard.php"><p><input type="submit" value="Create"></p></a> TODO:Make link to onboard -->
         </form>
