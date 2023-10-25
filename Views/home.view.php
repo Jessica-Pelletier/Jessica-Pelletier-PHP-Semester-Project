@@ -16,7 +16,7 @@
 
 <div class=container>
     <main class=mainhome>
-        <h1>My Intineraries</h1>
+        <h1>My Itineraries</h1>
         <a href>View my itineraries</a> <br> <!--TODO: php - add counter for amount of itineraries. -->
         <a href="newItin.php">Create new</a> 
     </main>
