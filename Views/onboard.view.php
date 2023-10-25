@@ -1,3 +1,28 @@
+<?php 
+declare(strict_types = 1);
+$password = '';
+$message = '';
+function is_password(string $password): bool
+{
+    if (
+        mb_strlen($password) >= 8
+        and preg_match('/[A-Z]/', $password)
+        ){
+            return true;
+        }
+        return false;
+    }
+    
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $password = $_POST['password'];
+        $valid    = is_password($password);
+        $message  = $valid ?  'Password is valid' :
+              'password not strong enough';
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,8 +38,10 @@
     <main class=onboardpage>
         <div class=onboardform>
         <h1>Create an account</h1>
-        <!--TODO: Add action to form -->
-        <form action="home.php" method="POST">
+
+
+        <?= $message ?>
+        <form action="onboard.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" name="name" required>
 
