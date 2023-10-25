@@ -5,15 +5,16 @@ DGL123
 REPO: https://github.com/Jessica-Pelletier/Jessica-Pelletier-PHP-Semester-Project.git
 
 ChatGPT prompts:
-(Home page) what can I do to make this look more professional?
+-(Home page) what can I do to make this look more professional?
 
-(home)are there any simple features you would add?
+-(home)are there any simple features you would add?
 Answered provided were ideas that were on the larger side (integrate maps, user registration and profiles etc)
 
-(New itinerary)Given the previous css, what would you suggest i add to this form?
-So far this is has given the best, most direct response. It was suggesting that I Style buttons that match other buttons on my webstime. 
+-(New itinerary)Given the previous css, what would you suggest i add to this form?
+So far this is has given the best, most direct response. It was suggesting that I Style buttons that match other buttons on my website. 
 
-I followed up the previous question with "What is it missing that would provide value to the user or that would help me better gather information to make a random generated itinerary".
+-I followed up the previous question with "What is it missing that would provide value to the user or that would help me better gather information to make a random generated itinerary".
+
 Some of the better suggestions were :
 -Budget Input
 -Number of Travelers
@@ -21,14 +22,18 @@ Some of the better suggestions were :
 
 
 
-I copied my class critiques and asked it to summarize:
-<hr>
- Lack of a footer on the pages.
-Presence of a second password box that may not be necessary.
-Forms don't appear to handle and validate bad inputs.
-The layout design needs improvement.
-Responsiveness should be worked on to ensure the site looks good on various devices.
-Other pages require attention.
-Spelling mistake: "intineraries" should be corrected to "itineraries."
-Suggestion to make the right-side menu collapsible, especially on smaller screens.
-Consider implementing a hamburger menu or pop-out menu for mobile views, which is a conventional approach.
+I copied my class critiques and asked it to summarize (some of which I've fixed in the last week and have removed from the list):
+
+-Presence of a second password box that may not be necessary.
+-Forms don't appear to handle and validate bad inputs.
+-The layout design needs improvement.
+-Responsiveness should be worked on to ensure the site looks good on various devices.
+-Spelling mistake: "intineraries" should be corrected to "itineraries."
+-Suggestion to make the right-side menu collapsible, especially on smaller screens.
+-Consider implementing a hamburger menu or pop-out menu for mobile views, which is a conventional approach.
+
+
+Areas that Chatgpt and the class have in common: 
+
+Primarily my forms. Catching and reducing errors.
+
