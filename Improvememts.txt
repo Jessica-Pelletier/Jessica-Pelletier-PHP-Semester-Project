@@ -43,3 +43,10 @@ For this class period iteration I will
 -Implement requirments to inputs validation and error messages
 -Fix the margins and spacing around my forms 
 
+In the end I was able to do alot on my onboard form. 
+I fixed input types. I started with input=text and corrected to input=email, input=password etc.
+I implemented a function that I found in the textbook that creates password requirements and displays a message whether password is valid or not. 
+My issue now is how to get it to to go the next page. my password is valid but it just gives me a message "password is valid" but doesnt push me to the next page.
+
+UPDATE: 
+After getting help from classmates, my form now sends me to the next page when the form details are correct! 

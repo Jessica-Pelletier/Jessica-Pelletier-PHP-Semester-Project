@@ -41,7 +41,7 @@ function is_password(string $password): bool
 
 
         <?= $message ?>
-        <form action="onboard.php" method="POST">
+        <form action="home.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" name="name" required>
 
@@ -57,7 +57,7 @@ function is_password(string $password): bool
             <input type="checkbox" name="terms" value="true" required>
             <label for="terms">I agree to the <a href="outofscope.php">terms and conditions.</a></label>
 
-            <a href="home.php"><input type="submit" value="Create"></a> 
+            <input type="submit" value="Create">
             
         </form>
         <!-- <button><a href="home.php">Sign up</a></button> This is a sudo button for temp user flow ONLY, please delete once form button is properly linked -->
