@@ -17,10 +17,12 @@
             <div class=form>
                 <form action="" method="POST">
 
-                <label for="destination">Where are you going?</label><input type="text" name="destination">
-                <label for="duration">How many days?</label><input type="text" name="duration">
+                <label for="destination">Where are you going?</label>
+                <input type="text" name="destination">
+                <label for="duration">How many days?</label>
+                <input type="text" name="duration">
 
-                
+
             </div><!--Can I change this to an int?-->
             <button class=cancel><a href="home.php">Cancel</a></button>
             <!--<p><a href="newdetail.php"><input type="submit" value="Create"></a></p>--> <!--Make button link to newdetail.php-->

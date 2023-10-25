@@ -187,8 +187,7 @@ footer a {
   margin-bottom:8px;
   
 }
-.onboardform input,
-.onboarding label {
+.onboardform input{
   display: block;
   width: 100%;
 }
@@ -284,7 +283,7 @@ input[type=checkbox] {
 .newitindiv {
   width: 40%;
   margin: auto;
-  margin-top: 12%;
+  margin-top: 6%;
   padding-top: 25px;
   font-size: 22px;
   border-radius: 10;
@@ -292,6 +291,7 @@ input[type=checkbox] {
   background-color: white;
   box-shadow: 8px 8px 10px lightgray;
   height: 300px;
+  height:auto;
 }
 .newitin p {
   font-size: 20px;
@@ -299,7 +299,10 @@ input[type=checkbox] {
 
 .newitin .form {
   width: 100%;
-  padding-bottom: 30px;
+  padding: 20px 35px 35px 35px;
+  margin-bottom:2em;
+  text-align: left;
+  
 }
 .newitin button {
   padding: 5px;
@@ -327,6 +330,11 @@ input[type=checkbox] {
 
 .newitindiv {
   border-radius: 4px;
+}
+
+.newitindiv input{
+  display: block;
+  width: 100%;
 }
 
 /*---Itinerary detail page---*/
