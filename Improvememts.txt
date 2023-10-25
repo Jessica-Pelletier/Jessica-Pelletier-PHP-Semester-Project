@@ -1,8 +1,7 @@
 Jessica Pelletier
-
 DGL123 
-
 REPO: https://github.com/Jessica-Pelletier/Jessica-Pelletier-PHP-Semester-Project.git
+Lab8A Ruberic: https://docs.google.com/spreadsheets/d/1q4jx7Ysbfoai77onCQ2TNzad_IWNXiVr/edit#gid=729464511
 
 ChatGPT prompts:
 -(Home page) what can I do to make this look more professional?
