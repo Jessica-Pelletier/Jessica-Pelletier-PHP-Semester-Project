@@ -37,3 +37,7 @@ Areas that Chatgpt and the class have in common:
 
 Primarily my forms. Catching and reducing errors.
 
+For this class period iteration I will 
+-Fix name/title errors in html
+
+
