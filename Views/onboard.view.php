@@ -2,11 +2,11 @@
 declare(strict_types = 1);
 $password = '';
 $message = '';
-function is_password(string $password): bool
+function is_password(string $password): bool  //checks password for requirements
 {
     if (
-        mb_strlen($password) >= 8
-        and preg_match('/[A-Z]/', $password)
+        mb_strlen($password) >= 8                   //password must be at least 8 characters
+        and preg_match('/[A-Z]/', $password)        // password must have a capital 
         ){
             return true;
         }
@@ -16,8 +16,8 @@ function is_password(string $password): bool
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $password = $_POST['password'];
         $valid    = is_password($password);
-        $message  = $valid ?  'Password is valid' :
-              'password not strong enough';
+        $message  = $valid ?  'Password is valid' :  //message if valid 
+              'password not strong enough';          //message of not valid
     }
 
 ?>
