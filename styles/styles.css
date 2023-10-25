@@ -181,7 +181,7 @@ footer a {
   font-size: 34px;
   margin-bottom:2px;
 }
-.onboardform input[type=text] {
+.onboardform input[type=text], input[type=email], input[type=password] {
   padding:7px;
   border-radius:10px;
   margin-bottom:8px;
