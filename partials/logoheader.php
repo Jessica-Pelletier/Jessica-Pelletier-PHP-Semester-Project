@@ -1,6 +1,6 @@
 <?php
 $currentURL = $_SERVER['REQUEST_URI'];
-if ($currentURL == '/index.php'){
+if ($currentURL == '/'){
     $showLoginButton = true;
 } else {
     $showLoginButton = false;
