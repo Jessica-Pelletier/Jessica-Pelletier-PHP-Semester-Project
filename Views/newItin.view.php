@@ -15,18 +15,23 @@
             <h1>New Itinerary</h1>
 
             <div class=form>
-                <form action="" method="POST">
+                <form action="newdetail.php" method="POST">
 
                 <label for="destination">Where are you going?</label>
-                <input type="text" name="destination">
+                <select name="destination">
+                    <option value="Spain">Spain</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Greenland">Greenland</option>
+                </select>
+
                 <label for="duration">How many days?</label>
-                <input type="text" name="duration">
+                <input type="number" name="duration">
 
-
-            </div><!--Can I change this to an int?-->
-            <button class=cancel><a href="home.php">Cancel</a></button>
-            <!--<p><a href="newdetail.php"><input type="submit" value="Create"></a></p>--> <!--Make button link to newdetail.php-->
-            <button class=create><a href="newdetail.php">Create</a></button>
+                <button><a href=home.php>Cancel</a></button>
+                <input type="submit" value="Create">
+            </div>
+            
+            
             </form>
         </div>
 
