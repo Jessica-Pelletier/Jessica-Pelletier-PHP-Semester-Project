@@ -42,13 +42,16 @@ function is_password(string $password): bool  //checks password for requirements
 
         <?= $message ?>
         <form action="home.php" method="POST">
-            <label for="name">Name:</label>
+            <label for="name">First Name:</label>
             <input type="text" name="name" required>
 
             <label for="email">Email:</label>
             <input type="email" name="email" required>
 
             <label for="password">Password</label>
+            <div class=requirements>
+            <p>Minimum 8 characters</p>
+            <p>Must contain 1 Uppercase</p></div>
             <input type="password" name="password">
 
             <label for="password">Re-enter Password</label>
@@ -57,10 +60,11 @@ function is_password(string $password): bool  //checks password for requirements
             <input type="checkbox" name="terms" value="true" required>
             <label for="terms">I agree to the <a href="outofscope.php">terms and conditions.</a></label>
 
-            <input type="submit" value="Create">
+            <input type="submit" value="Register">
+            <p>Already have an account? <a href=outofscope.php>Sign in!</a></p>
             
         </form>
-        <!-- <button><a href="home.php">Sign up</a></button> This is a sudo button for temp user flow ONLY, please delete once form button is properly linked -->
+       
 </div>
     </main>
 <?php require('partials/footer.php') ?>

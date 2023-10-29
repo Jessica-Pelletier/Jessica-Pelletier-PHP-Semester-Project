@@ -27,8 +27,9 @@
                 <label for="duration">How many days?</label>
                 <input type="number" name="duration">
 
-                <button><a href=home.php>Cancel</a></button>
+                
                 <input type="submit" value="Create">
+               <div class=cancel-container> <button><a href=home.php>Cancel</a></button></div>
             </div>
             
             

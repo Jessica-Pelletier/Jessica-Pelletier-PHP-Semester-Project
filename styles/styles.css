@@ -11,9 +11,18 @@ body {
   min-height: 100vh;
     display: flex;
     flex-direction: column;
+  
+}
+body a{
+  color:blue;
 }
 
-
+input[type=submit]{
+  background-color:#107e7d;
+  color:white;
+  font-family: montserrat;
+  font-size: 1em;
+}
 /* ---Partials--- */
 .header {
   display: flex;
@@ -215,7 +224,14 @@ input[type=checkbox] {
   margin-left:0;
 
 }
-
+.onboardform p{
+  margin:0px;
+  font-size:16px;
+}
+.requirements p {
+  color:gray;
+  font-size:14px;
+}
 
 /* --- Home page --- */
 .container {
@@ -281,27 +297,27 @@ input[type=checkbox] {
 
 /* ---New Itinerary---*/
 .newitindiv {
-  width: 40%;
+  width: 400px;
   margin: auto;
-  margin-top: 6%;
-  padding-top: 25px;
-  font-size: 22px;
-  border-radius: 10;
-  text-align: center;
-  background-color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 18px;
+  background-color:white;
   box-shadow: 8px 8px 10px lightgray;
-  height: 300px;
-  height:auto;
+  border-radius: 10px;
+  padding-bottom: 12px;
+ 
 }
+
+
 .newitin p {
   font-size: 20px;
 }
 
 .newitin .form {
-  width: 100%;
-  padding: 20px 35px 35px 35px;
-  margin-bottom:2em;
-  text-align: left;
+ width: 100%;
+  padding: 20px 40px 35px 40px;
+  text-align: left; 
   
 }
 .newitin button {
@@ -312,30 +328,45 @@ input[type=checkbox] {
   font-size: 16px;
   font-family: "montserrat";
 }
-.newitin a {
-  text-decoration: none;
-  color: black;
-}
 
-.create a {
-  color: white;
-}
-.newitin .create {
-  background-color: #107e7d;
-}
-
-.newitin .cancel {
-  margin-right: 45%;
-}
-
-.newitindiv {
-  border-radius: 4px;
-}
-
-.newitindiv input{
+.newitindiv select, input{
   display: block;
-  width: 100%;
+  padding:6px 6px 6px 6px;
+  border-radius:10px;
+  margin-bottom:12px;
+  width:100%;
+  font-family: "montserrat";
+  font-size:18px;
 }
+
+.newitindiv h1{
+  text-align:center;
+  font-size: 34px;
+  margin:4px 0px 2px 0px;
+
+}
+
+.cancel-container {
+  text-align:center;
+}
+
+.newitindiv button{
+  background-color:white;
+  color:#107e7d;
+  border-radius: 10px;
+  padding: 4px 16px 4px 16px;
+
+}
+
+.newitindiv a{
+  text-decoration:none;
+  color:#107e7d;
+
+}
+
+
+
+
 
 /*---Itinerary detail page---*/
 .itincard {
