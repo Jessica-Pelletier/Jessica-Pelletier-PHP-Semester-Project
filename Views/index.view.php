@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/41a97b2717.js" crossorigin="anonymous"></script>
 
     <title>Index</title>
 </head>
@@ -22,12 +23,24 @@
 
         </div>
         </section>
-        <section>
-            <h2>The APP</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section> 
+        <section class=flex-container-home>
+            <div class=featureitem>
+                <i class="fa-solid fa-pen-ruler fa-2xl"></i>
+                <p>The ultimate tool for crafting a personalized travel experience.</p>
+
+            </div>
+            <div class=featureitem>
+            <i class="fa-solid fa-clock fa-2xl"></i>
+            <p>See more and do more. Optimize for efficiency and see more of the world.</p>
+            </div>
+
+            <div class=featureitem>
+            <i class="fa-solid fa-plane fa-2xl"></i>
+                <p>Discover curated recommendations for must-see attractions and hidden gems.</p>
+            </div>
+        </section>
     </main>
-     <?php require('partials/footer.php') ?> 
+    <?php require('partials/footer.php') ?>
 </body>
 
 </html>

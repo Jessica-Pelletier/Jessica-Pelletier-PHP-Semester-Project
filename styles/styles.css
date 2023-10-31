@@ -137,6 +137,22 @@ footer a {
   margin-top: 300px;
 }
 
+.flex-container-home {
+  display:flex;
+  justify-content: space-around;
+}
+.featureitem {
+  max-width: 
+    20%;
+    text-align:center;
+    font-size: 1.3rem;
+    margin:5% 0%;
+}
+.fa-solid {
+  width:100px;
+  color:#1fa2a0
+}
+
 /* Code taken from https://getcssscan.com/css-buttons-examples */
 .indexcta {
   align-items: center;

@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 $password = '';
 $message = '';
+require "database.php";
 function is_password(string $password): bool  //checks password for requirements
 {
     if (
@@ -19,7 +20,18 @@ function is_password(string $password): bool  //checks password for requirements
         $message  = $valid ?  'Password is valid' :  //message if valid 
               'password not strong enough';          //message of not valid
     }
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $is_password = true) {
+$firstname = $_POST['firstname'];
+$email = $_POST['email'];
+$password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
+$stmt = $db->prepare("INSERT INTO users (firstname, email, password) VALUES (?, ?, ?)");
+    if ($stmt->execute([$firstname, $email, $password])) {
+        echo "Registration successful!";
+    } else {
+        echo "Registration failed.";
+    }
+}
 ?>
 
 
@@ -42,8 +54,8 @@ function is_password(string $password): bool  //checks password for requirements
 
         <?= $message ?>
         <form action="home.php" method="POST">
-            <label for="name">First Name:</label>
-            <input type="text" name="name" required>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" required>
 
             <label for="email">Email:</label>
             <input type="email" name="email" required>
