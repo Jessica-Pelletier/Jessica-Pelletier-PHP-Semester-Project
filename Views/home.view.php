@@ -22,7 +22,7 @@
     </main>
 
     <?php require('partials/aside.php')?>
-    <pre><?php var_dump($_POST); ?></pre>
+    
    
 </div>
 
