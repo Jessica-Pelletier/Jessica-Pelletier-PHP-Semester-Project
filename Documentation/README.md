@@ -8,7 +8,7 @@ Github Repository: https://github.com/Jessica-Pelletier/Jessica-Pelletier-PHP-Se
 WanderWise is a travel itinerary generator. The program requires user registration and login. For the MVP of this program, users will be able to pick from one of a few locations and the program will generate an itinerary for the length of the trip based on available time/day and how much time each activity requires. 
 
 ##Current Status 
-At this time, the program is not running. The database is nearly connect for user registration. Once complete, the logic flow for the itinerary generator will be worked on. I will update this as required. 
+At this time, the program is not running. The database is connected and user registration details are passed into the database. Currently the user login and itinerary generation features do not operate. 
 
 ##TroubleShooting
 All configuration and databse info is in config.php and database.php.
