@@ -1,6 +1,13 @@
+<?php 
+require("functions.php");
+require("database.php");
+$sql = "SELECT firstname FROM users";
+$users = pdo($pdo, $sql)->fetch();
+?>
+<!--DOES NOT WORK. MUST FIX-->
 <aside>
         <nav>
-            <p class=greeting>Hello, <?= $_SESSION['name'] ?>  </p> 
+            <p class=greeting>Hello, <?= ($users['firstname']) ?>  </p> 
             <ul class=asideul>
                 <li><a href="outofscope.php">Profile</a></li>
                 <li><a href="outofscope.php">Itineraries</a></li>
