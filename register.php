@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    if (is_password_valid($password)) {
+    if (is_password_valid($password)) { 
         // Password is valid, proceed with registration
        
         // Hash the password before saving it in the database

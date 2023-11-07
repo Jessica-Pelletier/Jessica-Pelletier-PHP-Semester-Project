@@ -55,6 +55,7 @@ input[type=submit]{
 }
 
 /*aside*/
+aside { height: 100vh;}
 .asideul {
   list-style-type: none;
 }
@@ -77,7 +78,7 @@ input[type=submit]{
   font-size: 20px;
   font-weight: 700;
 }
-
+/*-- footer --*/
 footer {
   background-color: #107e7d;
   text-align: center;
@@ -257,7 +258,7 @@ input[type=checkbox] {
 
 .container aside {
   width: 300px;
-  height: 100%;
+  height: 80vh;
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 0px 0px 5px 5px;

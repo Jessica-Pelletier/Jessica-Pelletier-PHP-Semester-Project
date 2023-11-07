@@ -15,17 +15,17 @@
             <h1>New Itinerary</h1>
 
             <div class=form>
-                <form action="newdetail.php" method="POST">
+                <form action="itinerarylogic.php" method="POST">
 
-                <label for="destination">Where are you going?</label>
-                <select name="destination">
+                <label for="location">Where are you going?</label>
+                <select name="location">
                     <option value="Spain">Spain</option>
                     <option value="Mexico">Mexico</option>
                     <option value="Greenland">Greenland</option>
                 </select>
 
-                <label for="duration">How many days?</label>
-                <input type="number" name="duration">
+                <label for="days">How many days?</label>
+                <input type="number" name="days">
 
                 
                 <input type="submit" value="Create">
