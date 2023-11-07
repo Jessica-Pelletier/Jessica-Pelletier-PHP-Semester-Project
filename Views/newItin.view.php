@@ -1,3 +1,8 @@
+<?php
+
+require("database.php");
+require("config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +20,7 @@
             <h1>New Itinerary</h1>
 
             <div class=form>
-                <form action="itinerarylogic.php" method="POST">
+                <form action="newdetail.php" method="POST">
 
                 <label for="location">Where are you going?</label>
                 <select name="location">
@@ -24,15 +29,15 @@
                     <option value="Greenland">Greenland</option>
                 </select>
 
-                <label for="days">How many days?</label>
-                <input type="number" name="days">
+                    <label for="days">How many days?</label>
+                    <input type="number" name="days">
 
-                
-                <input type="submit" value="Create">
-               <div class=cancel-container> <button><a href=home.php>Cancel</a></button></div>
+
+                    <input type="submit" value="Create">
+                    <div class=cancel-container> <button><a href=home.php>Cancel</a></button></div>
             </div>
-            
-            
+
+
             </form>
         </div>
 
