@@ -33,5 +33,5 @@
         <p>Alot of the class suggestions were to do with interface and design. But some of the comments are vague. "I wish the list was a little more well-designed" & "Improve the user interface design". Adding some styling is important to me and i considered adding some cards under my itineraries, that represent each planned trip, to make things a little more visual but at this time in the course. I don't have plenty of time and my application is hardly functioning.</p>
     </li>
 </ul>
- <h2>TimeLine<h2>
+ <h2>TimeLine</h2>
  <p>If I can work on one of these features a week, It's possible that I could complete them by Nov 29th when it's the final Milestone presentation. First, I will work on connecting itinerary form to the DB. Then move on to the password matching for registration. After November 26th We will have gone through chapter 16 in the texbook(which covers loggin in and sessions) and I can use that to acheive a personalized nav bar.  </p>
