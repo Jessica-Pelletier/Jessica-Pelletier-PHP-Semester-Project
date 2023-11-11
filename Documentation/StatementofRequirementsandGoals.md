@@ -7,7 +7,7 @@
 -Appropriate error handeling<br>
 -Styling, UX/UI<br>
 
-<h2>The main Goals for the next few weeks are as follows:<h2><br>
+<h2>The main Goals for the next few weeks are as follows:</h2><br>
 
 <ul>
     <li>
