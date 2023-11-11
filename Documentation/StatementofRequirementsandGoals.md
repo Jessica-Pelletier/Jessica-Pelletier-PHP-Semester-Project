@@ -1,4 +1,14 @@
 <h1>Statement of Requirements</h1>
+
+<p>At this time based on class and personal feedback, my priorities in order from highest to lowest are: 
+-Fixing database connection on itinerary creation component.
+-Password match
+-Itinerary functionality
+-Appropriate error handeling
+-Styling, UX/UI
+
+The main Goals for the next few weeks are as follows:
+
 <ul>
     <li>
         <h2>Connect New Itinerary Creation Form to DB</h2>
@@ -15,8 +25,8 @@
         <p>My navigation bar currently has the greeting "Hello Jessica!" but it is static.  I'd like to make it dynamic and have it pull the users name. On page 622 of the textbook it goes over personalizing the navigation bar. In the least, I would like the navigation to be dynamic. It time is available for styling purposes; I'd like to move the greeting up into the header as advised in class.</p>
     </li>
     <li>
-        <h2>The Itinerary<h2> 
-        <p>I'd like to be realistic about my itinerary planner. Although it is the primary function of the application, I don't know to what level it is realistic for me to expect to complete. I'm trying to think of ways that I can render it down to its most simple form. Perhaps when the user inputs the location, the generation will select a pre made itinerary. Just for the purposes of acheiving something in DGL123. Jeffrey Way talks about getting items from the DB and showing them in list form in Video 16. </p>
+        <h2>The Itinerary</h2> 
+        <p>I'd like to be realistic about my itinerary planner. Although it is the primary function of the application, I don't know to what level it is realistic for me to expect to complete. I'm trying to think of ways that I can render it down to its most simple form. Perhaps when the user inputs the location, the generation will select a pre made itinerary. Just for the purposes of acheiving something in DGL123. Jeffrey Way talks about getting items from the DB and showing them in list form in Video 16.</p>
     </li>    
     <li>
         <h2>Other class suggestions</h2>
