@@ -4,6 +4,8 @@ This assignment was for deploying Milestone 3 to AWS Server and creating deploym
 
 deployed project link: https://jpelletier2.imgd.ca/dgl123/Jessica-Pelletier-PHP-Semester-Project/index.php
 
-Assignment8RubericJessicaPelletier.xlsx
+[Assignment8RubericJessicaPelletier.xlsx](https://github.com/Jessica-Pelletier/Jessica-Pelletier-PHP-Semester-Project/files/13401697/Assignment8RubericJessicaPelletier.xlsx)
+
+
 
 8/8
