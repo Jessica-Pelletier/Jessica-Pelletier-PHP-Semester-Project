@@ -21,7 +21,7 @@ While doing milestone three I had to chnage username to "n0124390_Jpelletier2", 
 </ul>
 
 Photo of my site on server:
-![Wanderwise](WanderwiseOnimgd.png)
+![Wanderwise](images/WanderwiseOnimgd.png)
 
 .
 
