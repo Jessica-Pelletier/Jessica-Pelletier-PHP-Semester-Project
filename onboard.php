@@ -1,2 +1,2 @@
 <?php
-require ('Views/onboard.view.php');
+require ('views/onboard.view.php');
