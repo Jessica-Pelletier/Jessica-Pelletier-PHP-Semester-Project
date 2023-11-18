@@ -24,6 +24,7 @@ Photo of my site on server:
 ![Wanderwise](/images/WanderwiseOnimgd.png)
 
 .
+[Assignment8RubericJessicaPelletier.xlsx](https://github.com/Jessica-Pelletier/Jessica-Pelletier-PHP-Semester-Project/files/13401664/Assignment8RubericJessicaPelletier.xlsx)
 
 
 
