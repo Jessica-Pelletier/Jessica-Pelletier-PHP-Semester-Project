@@ -9,8 +9,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $firstname = $_POST['firstname'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $passwordConfirm = $_POST['passwordConfirm'];
 
     if (is_password_valid($password)) { 
+        if ($password !== $passwordConfirm) {
+            echo "Passwords do not match.";
+            exit;
+        }
         // Password is valid, proceed with registration
        
         // Hash the password before saving it in the database
@@ -28,9 +33,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         echo "Password not strong enough. It must be at least 8 characters long and contain at least 1 uppercase letter.";
     }
-}
+  
 
+}
 function is_password_valid(string $password): bool {
     return (mb_strlen($password) >= 8 && preg_match('/[A-Z]/', $password));
 }
-?>

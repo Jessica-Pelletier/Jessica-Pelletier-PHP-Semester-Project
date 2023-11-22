@@ -32,8 +32,8 @@ require("functions.php");
             <p>Must contain 1 Uppercase</p></div>
             <input type="password" name="password">
 
-            <!-- <label for="password">Re-enter Password</label>
-            <input type="password" name="password" required> -->
+            <label for="passwordConfirm">Re-enter Password</label>
+            <input type="password" name="passwordConfirm" required>
             
             <input type="checkbox" name="terms" value="true" required>
             <label for="terms">I agree to the <a href="outofscope.php">terms and conditions.</a></label>
