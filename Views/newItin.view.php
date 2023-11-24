@@ -2,6 +2,8 @@
 
 require("database.php");
 require("config.php");
+require("itinerarylogic.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,14 +25,21 @@ require("config.php");
                 <form action="newdetail.php" method="POST">
 
                 <label for="location">Where are you going?</label>
-                <select name="location">
-                    <option value="Spain">Spain</option>
-                    <option value="Mexico">Mexico</option>
-                    <option value="Greenland">Greenland</option>
+                <select name="location" id="location" required>
+                <?php
+                        // Check if $enum_values is set before using it
+                        if (!empty($enum_values)) {
+                            foreach ($enum_values as $value) {
+                                echo "<option value=\"$value\">$value</option>";
+                            }
+                        } else {
+                            echo "<option value=\"\">No locations available</option>";
+                        }
+                        ?>
                 </select>
 
                     <label for="days">How many days?</label>
-                    <input type="number" name="days">
+                    <input type="number" name="days" id="days" required>
 
 
                     <input type="submit" value="Create">

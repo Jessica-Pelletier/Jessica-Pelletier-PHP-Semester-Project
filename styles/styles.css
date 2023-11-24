@@ -54,6 +54,11 @@ input[type=submit]{
   padding-left: 1%;
 }
 
+.greeting{
+   align-self: flex-end;
+   margin-right:10%;
+}
+
 /*aside*/
 aside { height: 100vh;}
 .asideul {

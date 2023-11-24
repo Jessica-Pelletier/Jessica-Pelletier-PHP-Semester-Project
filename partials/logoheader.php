@@ -1,10 +1,18 @@
 <?php
 $currentURL = $_SERVER['REQUEST_URI'];
-if ($currentURL == '/'){
+if ($currentURL == '/dgl123-project/Jessica-Pelletier-PHP-Semester-Project/index.php'){
     $showLoginButton = true;
 } else {
     $showLoginButton = false;
 }
+
+if ($currentURL != '/dgl123-project/Jessica-Pelletier-PHP-Semester-Project/index.php' || '/dgl123-project/Jessica-Pelletier-PHP-Semester-Project/onboard.php'){
+    $showgreeting = true;
+} else {
+    $showgreeting = false;
+}
+
+
 ?>
 
 
@@ -16,7 +24,16 @@ if ($currentURL == '/'){
 <?php
 if ($showLoginButton){
     echo '<a href="outofscope.php"><button type="button">Log in!</button></a>';
-} ?>
+}
+?>
+<div class=greeting>
+<?php
+if ($showgreeting){
+    echo  'Hello, Jessica' ;
+}
+ ?>
+</div>
+
 
 </header>
 
