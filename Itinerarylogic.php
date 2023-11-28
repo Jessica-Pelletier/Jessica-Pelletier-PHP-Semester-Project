@@ -35,26 +35,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Assuming 'activities' is the name of the activities table
     $query = "SELECT activity FROM activities WHERE country = :country ORDER BY RAND() LIMIT 2";
-    $stmt = $db->prepare($query);
+$stmt = $db->prepare($query);
 
-    $itinerary = [];
-    
-    for ($day = 1; $day <= $days; $day++) {
-        $stmt->execute(['country' => $location]);
-        $activities = $stmt->fetchAll(PDO::FETCH_COLUMN);
+$itinerary = [];
 
-        $itinerary[$day] = $activities;
+for ($day = 1; $day <= $days; $day++) {
+    $stmt->execute(['country' => $location]);
+    $activities = $stmt->fetchAll(PDO::FETCH_COLUMN);
+
+    if (empty($activities)) {
+        echo "No activities available for the selected country.";
+        exit; // or handle this case as needed
     }
+
+    $itinerary[$day] = $activities;
+}
 
     // Insert the itinerary into the 'itinerary' table
     $stmt = $db->prepare("INSERT INTO itinerary (location, days, user_id) VALUES (?, ?, ?) ");
     
     if ($stmt->execute([$location, $days, $user_id])) {
         // Registration successful, redirect to the home page
+        $insertedLocation = $location;
         header("Location: newdetail.php");
         exit; // Make sure to exit to prevent further script execution
     } else {
         echo "Registration failed.";
     }
 }
+
+// Set $itinerary to an empty array if it's not set
+$itinerary = $itinerary ?? [];
 ?>
